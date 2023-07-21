@@ -204,6 +204,31 @@ img {
   align-items: center;
 }
 
+.about__list {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.about__container {
+  row-gap: 3rem;
+  position: relative;
+  background-color: var(--container-color);
+  padding: 3.5rem .5rem 3.5rem 1.5rem;
+  border-radius: .25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  transition: .3s;
+}
+
+.about__icon {
+  font-size: 2.5rem;
+  color: var(--first-color);
+}
+
+.about__title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
 .change-theme {
   font-size: 1.25rem;
   color: var(--title-color);
@@ -348,6 +373,7 @@ body.dark-theme {
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
+  margin-right: 100px;
 }
 
 .about__description {

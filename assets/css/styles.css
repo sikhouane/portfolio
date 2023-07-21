@@ -779,6 +779,11 @@ body.dark-theme {
   font-weight: var(--font-medium);
 }
 
+.contact__list {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
 .footer {
   padding-top: 2rem;
 }
